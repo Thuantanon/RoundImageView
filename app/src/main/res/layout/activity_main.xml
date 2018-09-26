@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            />
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_border_width="4dp"
+            app:cc_border_color="#0ff"
+            />
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_border_width="4dp"
+            app:cc_border_color="#0ff"
+            app:cc_border_overlay="true"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_radius="10dp"
+            />
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_border_width="4dp"
+            app:cc_border_color="#0ff"
+            app:cc_radius="10dp"
+            />
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_border_width="4dp"
+            app:cc_border_color="#0ff"
+            app:cc_radius="10dp"
+            app:cc_border_overlay="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_radius="20dp"
+            app:cc_cover_color="#4f00"
+            />
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_border_width="4dp"
+            app:cc_border_color="#0ff"
+            app:cc_radius="20dp"
+            app:cc_cover_color="#40f0"
+            />
+
+        <com.cxh.roundimageviewlib.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/test"
+            app:cc_border_width="4dp"
+            app:cc_border_color="#0ff"
+            app:cc_radius="20dp"
+            app:cc_border_overlay="true"
+            app:cc_cover_color="#400f"
+            />
+    </LinearLayout>
+
+</LinearLayout>
