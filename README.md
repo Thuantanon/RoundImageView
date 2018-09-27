@@ -1,6 +1,6 @@
 # RoundImageView
 a ImageView display round image
-> 这是很久以前项目里的代码了，整理下以后方便拿来用。
+> 网上有很多优秀的库了，只是没找到需要的，于是自己动手吧。
   
 ## 效果图
 
